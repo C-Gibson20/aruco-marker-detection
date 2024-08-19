@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 
-# decide which dictionary is most suitable
 arucoDict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_5X5_50)
 
 print("[INFO] generating ArUCo tag type DICT_5X5_50 with ID 87")
